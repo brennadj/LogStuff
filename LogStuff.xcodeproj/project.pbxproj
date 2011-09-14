@@ -23,6 +23,9 @@
 		55CAA31114209D6D00A31683 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55CAA30F14209D6D00A31683 /* InfoPlist.strings */; };
 		55CAA31314209D6D00A31683 /* LogStuffTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 55CAA31214209D6D00A31683 /* LogStuffTests.h */; };
 		55CAA31514209D6D00A31683 /* LogStuffTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CAA31414209D6D00A31683 /* LogStuffTests.m */; };
+		55CAA31F1420A24A00A31683 /* Logstuff.png in Resources */ = {isa = PBXBuildFile; fileRef = 55CAA31E1420A24A00A31683 /* Logstuff.png */; };
+		55CAA3211420A28400A31683 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 55CAA3201420A28400A31683 /* Default-Portrait~ipad.png */; };
+		55CAA3231420A29B00A31683 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 55CAA3221420A29B00A31683 /* Default-Landscape~ipad.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,22 +43,25 @@
 		55CAA2E414209D6D00A31683 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		55CAA2E614209D6D00A31683 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		55CAA2E814209D6D00A31683 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		55CAA2EC14209D6D00A31683 /* LogStuff-Info.plist */ = {isa = PBXFileReference; path = "LogStuff-Info.plist"; sourceTree = "<group>"; };
+		55CAA2EC14209D6D00A31683 /* LogStuff-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LogStuff-Info.plist"; sourceTree = "<group>"; };
 		55CAA2EE14209D6D00A31683 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		55CAA2F014209D6D00A31683 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		55CAA2F214209D6D00A31683 /* LogStuff-Prefix.pch */ = {isa = PBXFileReference; path = "LogStuff-Prefix.pch"; sourceTree = "<group>"; };
-		55CAA2F314209D6D00A31683 /* LogStuffAppDelegate.h */ = {isa = PBXFileReference; path = LogStuffAppDelegate.h; sourceTree = "<group>"; };
+		55CAA2F214209D6D00A31683 /* LogStuff-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LogStuff-Prefix.pch"; sourceTree = "<group>"; };
+		55CAA2F314209D6D00A31683 /* LogStuffAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogStuffAppDelegate.h; sourceTree = "<group>"; };
 		55CAA2F414209D6D00A31683 /* LogStuffAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogStuffAppDelegate.m; sourceTree = "<group>"; };
 		55CAA2F714209D6D00A31683 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		55CAA2F914209D6D00A31683 /* LogStuffViewController.h */ = {isa = PBXFileReference; path = LogStuffViewController.h; sourceTree = "<group>"; };
+		55CAA2F914209D6D00A31683 /* LogStuffViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogStuffViewController.h; sourceTree = "<group>"; };
 		55CAA2FA14209D6D00A31683 /* LogStuffViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogStuffViewController.m; sourceTree = "<group>"; };
 		55CAA2FD14209D6D00A31683 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LogStuffViewController.xib; sourceTree = "<group>"; };
 		55CAA30414209D6D00A31683 /* LogStuffTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogStuffTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55CAA30514209D6D00A31683 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		55CAA30E14209D6D00A31683 /* LogStuffTests-Info.plist */ = {isa = PBXFileReference; path = "LogStuffTests-Info.plist"; sourceTree = "<group>"; };
+		55CAA30E14209D6D00A31683 /* LogStuffTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LogStuffTests-Info.plist"; sourceTree = "<group>"; };
 		55CAA31014209D6D00A31683 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		55CAA31214209D6D00A31683 /* LogStuffTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogStuffTests.h; sourceTree = "<group>"; };
 		55CAA31414209D6D00A31683 /* LogStuffTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogStuffTests.m; sourceTree = "<group>"; };
+		55CAA31E1420A24A00A31683 /* Logstuff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logstuff.png; sourceTree = "<group>"; };
+		55CAA3201420A28400A31683 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		55CAA3221420A29B00A31683 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,9 @@
 		55CAA2D514209D6C00A31683 = {
 			isa = PBXGroup;
 			children = (
+				55CAA3221420A29B00A31683 /* Default-Landscape~ipad.png */,
+				55CAA3201420A28400A31683 /* Default-Portrait~ipad.png */,
+				55CAA31E1420A24A00A31683 /* Logstuff.png */,
 				55CAA2EA14209D6D00A31683 /* LogStuff */,
 				55CAA30C14209D6D00A31683 /* LogStuffTests */,
 				55CAA2E314209D6D00A31683 /* Frameworks */,
@@ -230,6 +239,9 @@
 				55CAA2EF14209D6D00A31683 /* InfoPlist.strings in Resources */,
 				55CAA2F814209D6D00A31683 /* MainWindow.xib in Resources */,
 				55CAA2FE14209D6D00A31683 /* LogStuffViewController.xib in Resources */,
+				55CAA31F1420A24A00A31683 /* Logstuff.png in Resources */,
+				55CAA3211420A28400A31683 /* Default-Portrait~ipad.png in Resources */,
+				55CAA3231420A29B00A31683 /* Default-Landscape~ipad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

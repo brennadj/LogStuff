@@ -20,13 +20,18 @@
 
 #pragma mark - View lifecycle
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.logstuff.co.uk"]];
+    [webView setScalesPageToFit:YES];
+    [webView loadRequest:request];
+    
 }
-*/
+
 
 - (void)viewDidUnload
 {

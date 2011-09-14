@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LogStuffViewController : UIViewController
-
+@interface LogStuffViewController : UIViewController{
+        IBOutlet UIWebView *webView;
+}
 @end
