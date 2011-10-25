@@ -26,7 +26,7 @@
 {
     [super viewDidLoad];
     
-    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.logstuff.co.uk"]];
+    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.logstuff.co.uk/ipad.php"]];
     [webView setScalesPageToFit:YES];
     [webView loadRequest:request];
     
